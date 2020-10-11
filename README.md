@@ -6,4 +6,4 @@ one scatter plot of the significantly dysregulated proteins, with a mean floures
 Takes two input files, a tab-delimited .txt file of up-regulated proteins, and the same for down-regulated proteins. Each file should contain four columns; 
 a column each for the protein name, the gene name, the pathway involved, and the difference in mean intensity.
 The first three columns can be found using the ID mapping tool on Uniprot, while the fourth comes from a students t-test carried out using Perseus software.
-Usages: <directory path>python Pathway_graphs.py input_file_1.txt input_file_2.txt
+Usage: <directory path>python Pathway_graphs.py input_file_1.txt input_file_2.txt
